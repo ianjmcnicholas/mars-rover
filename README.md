@@ -8,7 +8,8 @@ level of testing. Think about how the user will interact with the software.
 When you are done, please host your code on GitHub or package it up as a zip file and send it to
 us.
 Create an application that will take in commands and output an end state.
-Description 
+
+Description:
 * The application is a simulation of a toy robot moving on a square tabletop, of dimensions 5
 units x 5 units.
 * There are no other obstructions on the table surface.
