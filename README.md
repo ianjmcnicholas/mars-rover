@@ -18,10 +18,11 @@ destruction. Any movement that would result in the robot falling from the table 
 prevented, however further valid movement commands must still be allowed.
 
 The application should be able to read in any one of the following commands:
-PLACE X,Y,F
-MOVE
-LEFT
-RIGHT
+
+PLACE X,Y,F <br>
+MOVE <br>
+LEFT<br>
+RIGHT<br>
 REPORT
 * PLACE will put the toy robot on the table in position X,Y and facing NORTH, SOUTH, EAST or
 WEST.
@@ -45,26 +46,23 @@ placement of the toy robot.
 * Any move that would cause the robot to fall must be ignored.
 Here is some example input and output:
 
-a)
+a)<br>
 PLACE 0,0,NORTH
 MOVE
-REPORT
-
+REPORT<br>
 Output: 0,1,NORTH
 
-b)
+b)<br>
 PLACE 0,0,NORTH
 LEFT
-REPORT
-
+REPORT<br>
 Output: 0,0,WEST
 
-c)
+c)<br>
 PLACE 1,2,EAST
 MOVE
 MOVE
 LEFT
 MOVE
-REPORT
-
+REPORT<br>
 Output: 3,3,NORTH
