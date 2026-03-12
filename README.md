@@ -2,7 +2,7 @@
 
 ## Toy Robot Simulator
 
-We use this test as an indication of the kind of code that a candidate would write on a day-to-day
+This exercise is used as an indication of the kind of code that a candidate would write on a day-to-day
 basis, so please take your time and submit representative production grade code with an appropriate
 level of testing. Think about how the user will interact with the software.
 When you are done, please host your code on GitHub or package it up as a zip file and send it to
@@ -66,3 +66,15 @@ LEFT
 MOVE
 REPORT<br>
 Output: 3,3,NORTH
+
+### Considerations
+* Consider how a user interacts with the program...
+  * Give the user an introduction
+  * e.g. "Welcome to the Mars Rover Programme.  Please begin by placing the rover with the command PLACE X,Y,F where X is the eastings, Y is the northings, and F is direction the rover is to face.  For example, PLACE 2,3,NORTH"
+  * "The space available has the dimensions 5x5, with the south-west most corner being at 0,0."
+  * Consider the user flow.  Do you ask them for a move?  Do you just provide available commands?  Is there a "Help" function?
+  * Don't make it case-sensitive - string.toLowerCase() everything then string.split(), removing whitespaces but requiring the commas.
+  * How can the programme end?
+  * Just print commands at the start, and then the option for help each time, or all commands if there is an error.
+  * Confirm command each time.
+  * 
