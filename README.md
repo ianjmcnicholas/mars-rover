@@ -12,7 +12,7 @@ Compile the project:
 <pre>mvn compile</pre>
 
 Run the program:
-<pre>mvn exec:java -Dexec.mainClass="com.ianmcnicholas.MarsRover.Main"</pre>
+<pre>mvn exec:java -Dexec.mainClass="com.ianmcnicholas.Main"</pre>
 
 Run the local tests:
 <pre>mvn test</pre>
