@@ -1,10 +1,8 @@
 MARS ROVER PROJECT
 
 Begin by cloning this repo.  On your command line run:
-```dbn-psql
-git clone https://github.com/ianjmcnicholas/mars-rover
-cd mars-rover
-```
+<pre>git clone https://github.com/ianjmcnicholas/mars-rover
+cd mars-rover</pre>
 
 Ensure you have Java and Maven installed on your machine:
 <pre>java -version
