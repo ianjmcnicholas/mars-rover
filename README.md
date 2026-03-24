@@ -27,7 +27,7 @@ The rover is free to roam around the surface of the grid, but can only operate w
 
 Available commands:<br>
 - PLACE X Y F  
-  - Place the rover at coordinates [X,Y] facing in the direction F e.g. PLACE 2 4 WEST
+  - Place the rover at coordinates [X,Y] facing in the direction F. e.g. PLACE 2 4 WEST
 - MOVE
   - Move the rover 1 unit forward in the direction it is facing
 - LEFT
