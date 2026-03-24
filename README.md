@@ -1,4 +1,4 @@
-MARS ROVER PROJECT
+# MARS ROVER PROJECT
 
 Begin by cloning this repo.  On your command line run:
 <pre>git clone https://github.com/ianjmcnicholas/mars-rover
